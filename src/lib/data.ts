@@ -40,18 +40,18 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Freelance Front-End Developer",
-    description:
-      "I worked as a front-end developer in freelance for 6 months. Made a lot of interesting projects",
-    icon: React.createElement(CgWorkAlt),
-    date: "October 2022 — March 2023",
-  },
-  {
     title: "Completed a course in js - React",
     description:
-      "I Completed course after 2 months of studying. Started doing pet projects ",
+      "I Completed course after 2 months of studying. Started doing pet projects",
     icon: React.createElement(LuGraduationCap),
-    date: "2023 summer",
+    date: "2022-2023 winter",
+  },
+  {
+    title: "Centum-D",
+    description:
+      "As a frontend developer at Centum-D, I enhanced existing websites, created engaging landing pages, and fixed bugs on completed projects. Collaborating closely with clients, I ensured their visions were realized through intuitive and polished web solutions",
+    icon: React.createElement(CgWorkAlt),
+    date: "March 2023 — October 2023",
   },
   {
     title: "Training Club",
@@ -140,10 +140,13 @@ export const skillsData = [
   "MUI",
   "Styled-components",
   "Shadcn/ui",
-  "Git",
   "Tailwind",
   "Redux",
   "React Query",
   "Zustand",
   "Framer Motion",
+  "Git",
+  "Jest",
+  "react-testing-library",
+  "Vite"
 ] as const;
